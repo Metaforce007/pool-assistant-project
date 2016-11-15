@@ -55,7 +55,7 @@ function [srfc] = crop_surf(tab)
             
             % uncomment this if you want to see how the algorithms works
             % (dont forget the uncomment the $ imshow(tab); $ command
-            % below); it will be marked with red lines
+            % below); the mechanics will be marked with red lines
             %tab(tab_pix(1), tab_pix(2), :) = [255,0,0];
         end
     end
