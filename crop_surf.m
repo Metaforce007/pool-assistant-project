@@ -46,7 +46,7 @@ function [srfc] = crop_surf(tab)
             % if the pixel at $tab_pix is considered green by our definition
             % found in function $green(rgb) -> then we have encountered one the
             % surface's boundaries
-            if green(tab(tab_pix(1), tab_pix(2), :))
+            if grn(tab(tab_pix(1), tab_pix(2), :))
 
                 % submit the table's boundary we have found, which is at $tab_pix,
                 % and continue to the next boundary
