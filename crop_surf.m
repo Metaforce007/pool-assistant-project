@@ -50,7 +50,7 @@ function [srfc] = crop_surf(tab)
 
                 % submit the table's boundary we have found, which is at $tab_pix,
                 % and continue to the next boundary
-                surf_lim(i) = tab_pix(2-mod(i,2)); break;
+                surf_lim(i) = tab_pix(2-rc); break;
             end
             
             % uncomment this if you want to see how the algorithms works
